@@ -1,0 +1,29 @@
+.colorCard{
+height: 200px;
+width: 200px;
+
+}
+.cardWrapper{
+    display: flex;
+    width: 400px;
+    flex-wrap: wrap;
+}
+.flash{
+//background-color: black;
+}
+
+.red{background-color: red;
+    
+    &.flash{background-color: rgb(255, 150, 150);}}
+
+    .yellow{background-color: yellow;
+   
+        &.flash{background-color: rgb(255, 248, 190);}}
+
+    .green{background-color: green;
+   
+        &.flash{background-color: rgb(159, 238, 189);}}
+
+    .blue{background-color: blue;
+    
+        &.flash{background-color: rgb(150, 204, 255);}}
